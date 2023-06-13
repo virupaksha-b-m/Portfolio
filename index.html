@@ -1,0 +1,309 @@
+<html>
+
+
+<head>
+
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2eb2bcae42.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a> </li>
+                    <li><a href="#about">About</a> </li>
+                    <li><a href="#services">Services</a> </li>
+                    <li><a href="#portfolio">Portfolio</a> </li>
+                    <li><a href="#contact">Contact</a> </li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>UI/UX designer</p>
+                <h1>Hi, I'am <span> Virupaksha</span> <br> form india</h1>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ----------------------------------about--------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img class="secondimage" src="images/user3.png" alt="user" srcset="">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Strong desire to be part of a progressive organization that allows me to effectively use my
+                        knowledge and technical skills and Proficient in CPP,JAVA, C,HTML,CSS, JAVASCRIPT, and SQL.
+                        Passionate about implementing and launching new projects. Ability to translate business
+                        requirements into technical solutions. be part of a dynamic team that works towards overall
+                        growth of the organization. Currently looking for a job position in a company to fully utilize
+                        this knowledge.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experienc')">Experienc</p>
+                        <p class="tab-links" onclick="opentab('education')">Education </p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programing languages</span><br>C ,C++ and JavaScript</li>
+                            <li><span>Relevant CourseWork</span><br>DBMS ,SQL ,OOP's and DSA</li>
+                            <li><span>Domain</span><br>Web Application/MERN stack/Full stack Development</li>
+
+                        </ul>
+                    </div>
+
+
+
+                    <div class="tab-contents" id="experienc">
+                        <ul>
+                            <li><span>UI/UX</span><br>designing web/App interfaces(6 months)</li>
+                            <li><span>Web development</span><br>web app development(1 year)</li>
+                            <li><span>App development</span><br>Builidin Androids/ios apps(Currently exploring)</li>
+
+
+                        </ul>
+
+
+                    </div>
+
+
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.E</span><br>Computer science and engineering</li>
+                            <li><span>Diploma</span><br>Computer science and engineering</li>
+                            <li><span>SSLC</span><br>Science and Maths</li>
+
+                        </ul>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------------services-------------------------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>We understand the value of having an involvement with the site in today's technological time and
+                        make it a point to combine all digital marketing angles such as web design and related to web
+                        design only, web development, CMS development, E-commerce website and more to yield exceptional
+                        results. We have been created websites for numerous international and domestic brands, large
+                        corporations, and even tiny enterprises. We work with competence and experience to complete all
+                        projects on time and without delay since we realize how important it is for you to have a
+                        website developed as soon as possible.</p>
+                    <a href="https://www.cssfounder.com/website-design-company-in-bangalore/">Learnmore</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX design</h2>
+                    <p>We are specialized in creating beautiful and smooth UI/UX designs that provide better user
+                        experience by incorporating effective collaboration, streamlined projects which strive for
+                        better results. </p>
+                    <a href="https://www.leewayhertz.com/ui-ux-design-services/">Learnmore</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Application development</h2>
+                    <p>Whether creating an enterprise or consumer mobile app, we rely on our expertise in different
+                        techs and tools to make an app truly helpful and worth taking your users’ screen space. Though
+                        we can repeat the features, no two apps are identical: we find a unique value proposition for
+                        each app and tailor the functionality uniquely to its audience’s needs.</p>
+                    <a href="https://www.scnsoft.com/services/mobile-app-development">Learnmore</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img class="image" src="health.png" alt="" srcset="">
+                    <div class="layer">
+                        <h3>Personal Health Tracking system</h3>
+                        <p>It was an industrial project by Accenture Here we have created a web application using the
+                            MERN stack. The application will be used to store the patient's present and past treatment
+                            of data. This will help the patient in future treatment if there is any disease.</p>
+                        <a href="https://github.com/virupaksha-b-m/Personal-health-tracking-system"><i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img class="image2" src="quetions.png" alt="" srcset="">
+                    <div class="layer">
+                        <h3>Question Paper Generation for Outcome Based Education</h3>
+                        <p>This is a web Application. It was developed using MERN stack. Here the system is going to
+                            generate the Question paper for the internel assesment in our collage/university. And To
+                            avoid the repetition of the questions in the Quetion paper, we Have implemented an
+                            algorithm(method) and also used Randomization Algorithm.</p>
+                        <a
+                            href="https://github.com/virupaksha-b-m/Question_Paper_Generation_for_Outcome_Based_Education"><i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img class="image3" src="networks.png" alt="" srcset="">
+                    <div class="layer">
+                        <h3>Access Control Policies Enforcement in OpenStack Cloud</h3>
+                        <p>It was an industrial project by Juniper Networks We simulated a network in an OpenStack
+                            platform. The created network can be managed and modified by adding or removing multiple
+                            instances and multiple routers. Implemented a virtual firewall service by blocking all the
+                            instances through the router by adding the policies.</p>
+                        <a
+                            href="https://github.com/virupaksha-b-m/Access_Control_Policies_Enforcement_in_OpenStack_Cloud"><i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="work-list">
+                <div class="work">
+                    <img class="image3" src="single.PNG" alt="" srcset="">
+                    <div class="layer">
+                        <h3>Single Page Web Application</h3>
+                        <p>Here A single page web application is created using HTML, CSS, JAVASCRIPT ,NODEJS and
+                            EXPRESSJS.The first page contains besic arithmetic operation and the second page is about
+                            BMI calculator.</p>
+                        <a href="https://calculater-addition-bmi.onrender.com/"><i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img class="image3" src="simon1.PNG" alt="" srcset="">
+                    <div class="layer">
+                        <h3>Simon Game</h3>
+                        <p>here simon was created usign html, css and javascript. the game rules are, when we open the
+                            web page the simon game wil appear. when we click on any of the box the game will start.
+                            now that will show the color of each box and wait for you to click on that box's as how that
+                            will shown. if its currect then it proceeds else ends the game.
+
+                        </p>
+                        <a href="https://virupaksha-b-m.github.io/simonGame.github.io/"><i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img class="image3" src="calculator.PNG" alt="" srcset="">
+                    <div class="layer">
+                        <h3>Calculator App</h3>
+                        <p>Here a calculator was created using html, css and javascript. this is a basic calculator app.
+                            which calculats basic Arithmetic, subtraction, multiplication and divission.</p>
+                        <a href="https://virupaksha-b-m.github.io/calculator/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> virupakshabm112000@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 7975809236</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Virupaksha B M_KLE Tech University.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Virupaksha .all rights reserved</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+
+        }
+
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzCN-aVDdHHqpxyeY1JiHIYAfsSqrFFkijj8xuRFkmUGNq67jYEKY7EBMNQIQp7K7KI/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msgs = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msgs.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msgs.innerHTML = "";
+
+                    }, 3000);
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
